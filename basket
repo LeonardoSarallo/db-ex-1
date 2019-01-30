@@ -1,0 +1,73 @@
+Table : Basket
+- ID - Primary Key | NOT NULL | UNIQUE
+
+- Squadra - VARCHAR(35) | NOT NULL
+
+- Campionato - VARCHAR(20)
+
+- Nome - VARCHAR(12) | NOT NULL
+
+- Cognome - VARCHAR(12) | NOT NULL
+
+- Età - TINYINT
+
+- Data di nascita - DATE
+
+- Luogo di nascita - VARCHAR(12)
+
+- Numero Tesseramento - SMALLINT | NOT NULL
+
+- Numero Maglia - TINYINT | UNIQUE
+
+- Ruolo - VARCHAR(10)
+
+- Caratteristiche tecniche - TEXT
+
+- Punti stagionali - SMALLINT
+
+- Punti da 2 - SMALLINT
+
+- Punti da 3 - SMALLINT
+
+- Percentuale punti da 2 - TINYINT
+
+- Percentuale punti da 3 - TINYINT
+
+- Falli - TINYINT
+
+- Rimbalzi stagionali - TINYINT
+
+
+
+
+
+
+
+Table: Cars
+- ID Primary Key | NOT NULL | UNIQUE
+
+- Marca - VARCHAR(12)
+
+- Modello - VARCHAR(12) | NOT NULL
+
+- Cilindrata - MEDIUMINT
+
+- Cavalli - SMALLINT
+
+- Trazione - VARCHAR(12)
+
+- Carburante - VARCHAR(12)
+
+- Numero posti abilitati - TINYINT
+
+- Numero Telaio - INT | NOT NULL | UNIQUE
+
+- Anno immatricolazione - YEAR
+
+- Proprietari - TINYINT
+
+- Prezzo - DOUBLE
+
+- Optional - TEXT
+
+- Colore - VARCHAR(10)
